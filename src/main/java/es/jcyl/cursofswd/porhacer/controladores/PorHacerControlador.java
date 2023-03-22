@@ -13,6 +13,7 @@ import javax.xml.ws.Response;
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:4200")
 public class PorHacerControlador {
 
     @Autowired
